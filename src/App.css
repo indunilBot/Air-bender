@@ -1,0 +1,63 @@
+
+
+.bgImg1{
+  background-image: url('./assets/bg1.png');
+  /* background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center; */
+  /* height: 100vh; */
+
+}
+
+.bgImg2{
+background-image: url('./assets/bg2.png');
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+background-position: center;
+height: 100vh;
+
+}
+
+.bgImg3{
+background-image: url('./assets/bg3.png');
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+background-position: center;
+height: 100vh;
+}
+.groupImg{
+background-image: url('./assets/Group 3.png');
+background-repeat: no-repeat;
+background-size: contain;
+
+}
+
+
+.homeBg{
+background-image: url('./assets/homebg2.png');
+background-repeat: no-repeat;
+background-size: contain;
+background-position: center;
+opacity: 0.9;
+}
+
+.airBg{
+  background-image: url('./assets/airbg.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  opacity: 0.9;
+}
+
+
+.section {
+  opacity: 1;
+  transition: opacity 0.1s linear; /* Adjust transition duration as needed */
+}
+
+.section.loading {
+  opacity: 0;
+}
